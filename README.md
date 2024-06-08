@@ -39,16 +39,15 @@ Este projeto oferece uma solução em Python para analisar dados de derramamento
     Execute o script Python para iniciar o menu interativo no seu terminal/prompt de comando: python derramamentos.py
     
 3.  ###    Menu Interativo 
-	O menu apresenta as seguintes opções: Frequência de Derramamentos: Exibe um gráfico de barras mostrando o número de derramamentos por ano. Total Derramado: Exibe um gráfico de linha mostrando o volume total de petróleo derramado por ano. Causas dos Derramamentos: Exibe um gráfico de pizza mostrando a distribuição das causas dos derramamentos. Informações sobre o Impacto Ambiental: Exibe informações adicionais sobre o impacto do petróleo no meio ambiente. Sair: Encerra o programa. Exemplo de Uso Após iniciar o script, você verá um menu como este: Copiar código --------------- Menu 1) Frequencia de Derramamentos 2) Total Derramado 3) Causas dos Derramamentos 4) Informações sobre o impacto do petróleo no meio ambiente. 5) Sair
-    
-    Digite o número da opção desejada e pressione Enter para visualizar o gráfico correspondente ou obter informações. Estrutura do Código O script está organizado em funções para facilitar a leitura e manutenção: 
+	O menu apresenta as seguintes opções: Frequência de Derramamentos: Exibe um gráfico de barras mostrando o número de derramamentos por ano. Total Derramado: Exibe um gráfico de linha mostrando o volume total de petróleo derramado por ano. Causas dos Derramamentos: Exibe um gráfico de pizza mostrando a distribuição das causas dos derramamentos. Informações sobre o Impacto Ambiental: Exibe informações adicionais sobre o impacto do petróleo no meio ambiente. Sair: Encerra o programa. Digite o número da opção desejada e pressione Enter para visualizar o gráfico correspondente ou obter informações.
+   
+   ## Estrutura do Código O script está organizado em funções para facilitar a leitura e manutenção: 
    * **menu():** Exibe o menu interativo e aguarda a escolha do usuário. 
    * **graficoFrequenciaDerramamentos():** Gera e exibe o gráfico de frequência de derramamentos por ano. 
    * **graficoTotalDerramado():** Gera e exibe o gráfico de volume total derramado por ano.
    *  **graficoCausasDerramamentos():** Gera e exibe o gráfico de causas dos derramamentos. 
    * **informacoesImpacto():** Exibe informações sobre o impacto ambiental dos derramamentos de petróleo.
 
-**
 
 ## Desenvolvedores:
 
